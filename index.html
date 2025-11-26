@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shelley Transportation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Header with Logo Only -->
+  <header class="banner-header">
+    <img src="logo.png" alt="Shelley Transportation Banner" class="banner-image" />
+  </header>
+
+  <div class="container">
+    <main class="content">
+
+      <section class="hero">
+        <h1>Professional CDL Driver</h1>
+        <p>Church &amp; Christian Academy Event Transportation</p>
+
+        <!-- Book a Trip button -->
+        <a class="button"
+           href="https://docs.google.com/forms/d/e/1FAIpQLSdmXWnNLQhzgrJB2yUbVP10wO3JZQm0sU8uq9BilfD600fMkg/viewform"
+           target="_blank" rel="noopener noreferrer">
+          Book a Trip
+        </a>
+      </section>
+
+      <section class="services" aria-labelledby="services-title">
+        <h2 id="services-title">Services</h2>
+        <ul>
+          <li>Church Events · Youth Trips · Camps</li>
+          <li>Christian Academy Sporting Events</li>
+          <li>Field Trips · Conferences · Retreats</li>
+          <li>Experienced, Safe, Professional Driver</li>
+          <li>Fully Certified: CDL-B, Passenger, School Bus</li>
+        </ul>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      © <span id="year"></span> Shelley Transportation — 304-404-3456 — ShelleyTransportation@outlook.com
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').innerText = new Date().getFullYear();
+  </script>
+
+</body>
+</html>

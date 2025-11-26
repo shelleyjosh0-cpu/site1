@@ -1,0 +1,32 @@
+:root {
+  --brand:#123044;
+  --accent:#cba04b;
+  --bg:#f6f7f8;
+}
+*{box-sizing:border-box}
+body{
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;
+  margin:0;background:var(--bg);color:#222;
+}
+.banner-header{background:#fff; position:relative; overflow:hidden;}
+.banner-image{width:100%; height:auto; display:block; object-fit:cover;}
+.top-nav{ position:relative; text-align:center; padding:10px 0; background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(255,255,255,0.95));}
+.top-nav a{ margin:0 12px; color:var(--brand); text-decoration:none; font-weight:600; }
+.content{ max-width:940px; margin:18px auto; padding:0 12px; }
+.hero{ background:#fff; padding:20px; border-radius:8px; text-align:center; box-shadow:0 1px 4px rgba(0,0,0,0.05);}
+.hero h1{ color:var(--brand); margin:8px 0; }
+.button{ display:inline-block; background:var(--brand); color:white; padding:10px 16px; border-radius:6px; text-decoration:none; margin-top:12px;}
+.services{ margin-top:16px; background:#fff; padding:16px; border-radius:8px; box-shadow:0 1px 4px rgba(0,0,0,0.05);}
+.form-container{ background:#fff; padding:22px; border-radius:8px; box-shadow:0 1px 4px rgba(0,0,0,0.05);}
+label input,label select,label textarea,input[type="time"],input[type="date"],input[type="number"]{ margin-top:8px; padding:10px; border:1px solid #ddd; border-radius:6px; font-size:16px; width:100%;}
+.submit-btn{ background:var(--brand); color:white; border:none; border-radius:8px; padding:12px 16px; cursor:pointer; }
+.submit-btn:disabled{ opacity:0.6; cursor:not-allowed; }
+.notice{ color:#444; margin-top:6px; min-height:18px; }
+.notice.error{ color:#a33; font-weight:600; }
+.footer{ text-align:center; padding:14px; color:#666; font-size:14px; margin-top:18px; }
+.admin-container{ background:#fff; padding:16px; border-radius:8px; box-shadow:0 1px 4px rgba(0,0,0,0.05);}
+.booking-item{ border-bottom:1px solid #eee; padding:12px 0; }
+.small-btn{ padding:6px 8px; border-radius:6px; border:1px solid #ddd; background:#fff; cursor:pointer; }
+.button.danger{ background:#b33; color:#fff; border:none; padding:8px 12px; border-radius:6px; margin-left:8px; }
+
+@media (min-width:700px){ .form-container{ padding:28px; } }
